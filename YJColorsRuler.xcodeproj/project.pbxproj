@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159C74420D3CCA6FAF27420E /* libPods-YJColorsRulerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 674E408942E1FB8182095396 /* libPods-YJColorsRulerTests.a */; };
+		37007D37E2B0995BC1510850 /* libPods-YJColorsRuler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C510C48D1C14745642C4B7 /* libPods-YJColorsRuler.a */; };
 		866335A61F87A3C200799EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335A51F87A3C200799EC7 /* AppDelegate.m */; };
 		866335A91F87A3C200799EC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335A81F87A3C200799EC7 /* ViewController.m */; };
 		866335AC1F87A3C200799EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866335AA1F87A3C200799EC7 /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 		866335B41F87A3C200799EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335B31F87A3C200799EC7 /* main.m */; };
 		866335BE1F87A3C300799EC7 /* YJColorsRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335BD1F87A3C300799EC7 /* YJColorsRulerTests.m */; };
 		866335C91F87A3C300799EC7 /* YJColorsRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335C81F87A3C300799EC7 /* YJColorsRulerUITests.m */; };
+		866335DB1F87A43800799EC7 /* YJRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335D81F87A43800799EC7 /* YJRuler.m */; };
+		866335DC1F87A43800799EC7 /* YJRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335DA1F87A43800799EC7 /* YJRulerScrollView.m */; };
+		866335E01F87A6DB00799EC7 /* NSString+AddSeperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335DF1F87A6DB00799EC7 /* NSString+AddSeperator.m */; };
+		866335E31F87AAB100799EC7 /* YJRulerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 866335E21F87AAB100799EC7 /* YJRulerConstants.m */; };
+		866335E51F87AE9200799EC7 /* museosans_500-webfont-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866335E41F87AE9200799EC7 /* museosans_500-webfont-webfont.ttf */; };
+		D571A2C31F4E782AE966C8F5 /* libPods-YJColorsRulerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C4E7519D3B283030C69B08 /* libPods-YJColorsRulerUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB4CF98B8C4BC1978C25C66 /* Pods-YJColorsRulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRulerTests/Pods-YJColorsRulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1025B2172D563127C8B40478 /* Pods-YJColorsRulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRulerUITests/Pods-YJColorsRulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		674E408942E1FB8182095396 /* libPods-YJColorsRulerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJColorsRulerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		866335A11F87A3C200799EC7 /* YJColorsRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJColorsRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866335A41F87A3C200799EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		866335A51F87A3C200799EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,21 @@
 		866335C41F87A3C300799EC7 /* YJColorsRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJColorsRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		866335C81F87A3C300799EC7 /* YJColorsRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJColorsRulerUITests.m; sourceTree = "<group>"; };
 		866335CA1F87A3C300799EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866335D71F87A43800799EC7 /* YJRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRuler.h; sourceTree = "<group>"; };
+		866335D81F87A43800799EC7 /* YJRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRuler.m; sourceTree = "<group>"; };
+		866335D91F87A43800799EC7 /* YJRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRulerScrollView.h; sourceTree = "<group>"; };
+		866335DA1F87A43800799EC7 /* YJRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRulerScrollView.m; sourceTree = "<group>"; };
+		866335DE1F87A6DB00799EC7 /* NSString+AddSeperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AddSeperator.h"; sourceTree = "<group>"; };
+		866335DF1F87A6DB00799EC7 /* NSString+AddSeperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddSeperator.m"; sourceTree = "<group>"; };
+		866335E11F87AAB100799EC7 /* YJRulerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRulerConstants.h; sourceTree = "<group>"; };
+		866335E21F87AAB100799EC7 /* YJRulerConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRulerConstants.m; sourceTree = "<group>"; };
+		866335E41F87AE9200799EC7 /* museosans_500-webfont-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "museosans_500-webfont-webfont.ttf"; sourceTree = "<group>"; };
+		A5C510C48D1C14745642C4B7 /* libPods-YJColorsRuler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJColorsRuler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BF6C74876E44EAA3D4432A /* Pods-YJColorsRuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRuler.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRuler/Pods-YJColorsRuler.release.xcconfig"; sourceTree = "<group>"; };
+		D3C4E7519D3B283030C69B08 /* libPods-YJColorsRulerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJColorsRulerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AD777A5C78D9F132BF4AF3 /* Pods-YJColorsRulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRulerTests/Pods-YJColorsRulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31E0F972FAAC67BECFF3D46 /* Pods-YJColorsRuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRuler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRuler/Pods-YJColorsRuler.debug.xcconfig"; sourceTree = "<group>"; };
+		FCDFC5F165D464A0A3A6C6A2 /* Pods-YJColorsRulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJColorsRulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJColorsRulerUITests/Pods-YJColorsRulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37007D37E2B0995BC1510850 /* libPods-YJColorsRuler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159C74420D3CCA6FAF27420E /* libPods-YJColorsRulerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D571A2C31F4E782AE966C8F5 /* libPods-YJColorsRulerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C91DEF14C218F616B691EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C510C48D1C14745642C4B7 /* libPods-YJColorsRuler.a */,
+				674E408942E1FB8182095396 /* libPods-YJColorsRulerTests.a */,
+				D3C4E7519D3B283030C69B08 /* libPods-YJColorsRulerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		866335981F87A3C200799EC7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				866335BC1F87A3C300799EC7 /* YJColorsRulerTests */,
 				866335C71F87A3C300799EC7 /* YJColorsRulerUITests */,
 				866335A21F87A3C200799EC7 /* Products */,
+				E821D94AB51EA1BD7E90FE43 /* Pods */,
+				08C91DEF14C218F616B691EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +142,9 @@
 		866335A31F87A3C200799EC7 /* YJColorsRuler */ = {
 			isa = PBXGroup;
 			children = (
+				866335E41F87AE9200799EC7 /* museosans_500-webfont-webfont.ttf */,
+				866335DD1F87A6C600799EC7 /* Categories */,
+				866335D61F87A43800799EC7 /* YJRuler */,
 				866335A41F87A3C200799EC7 /* AppDelegate.h */,
 				866335A51F87A3C200799EC7 /* AppDelegate.m */,
 				866335A71F87A3C200799EC7 /* ViewController.h */,
@@ -132,6 +176,41 @@
 			path = YJColorsRulerUITests;
 			sourceTree = "<group>";
 		};
+		866335D61F87A43800799EC7 /* YJRuler */ = {
+			isa = PBXGroup;
+			children = (
+				866335D71F87A43800799EC7 /* YJRuler.h */,
+				866335D81F87A43800799EC7 /* YJRuler.m */,
+				866335D91F87A43800799EC7 /* YJRulerScrollView.h */,
+				866335DA1F87A43800799EC7 /* YJRulerScrollView.m */,
+				866335E11F87AAB100799EC7 /* YJRulerConstants.h */,
+				866335E21F87AAB100799EC7 /* YJRulerConstants.m */,
+			);
+			path = YJRuler;
+			sourceTree = "<group>";
+		};
+		866335DD1F87A6C600799EC7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				866335DE1F87A6DB00799EC7 /* NSString+AddSeperator.h */,
+				866335DF1F87A6DB00799EC7 /* NSString+AddSeperator.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E821D94AB51EA1BD7E90FE43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31E0F972FAAC67BECFF3D46 /* Pods-YJColorsRuler.debug.xcconfig */,
+				B7BF6C74876E44EAA3D4432A /* Pods-YJColorsRuler.release.xcconfig */,
+				D4AD777A5C78D9F132BF4AF3 /* Pods-YJColorsRulerTests.debug.xcconfig */,
+				0FB4CF98B8C4BC1978C25C66 /* Pods-YJColorsRulerTests.release.xcconfig */,
+				FCDFC5F165D464A0A3A6C6A2 /* Pods-YJColorsRulerUITests.debug.xcconfig */,
+				1025B2172D563127C8B40478 /* Pods-YJColorsRulerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866335CD1F87A3C300799EC7 /* Build configuration list for PBXNativeTarget "YJColorsRuler" */;
 			buildPhases = (
+				B25242562852EEF2833BBBFB /* [CP] Check Pods Manifest.lock */,
 				8663359D1F87A3C200799EC7 /* Sources */,
 				8663359E1F87A3C200799EC7 /* Frameworks */,
 				8663359F1F87A3C200799EC7 /* Resources */,
+				60D8C8741A971AC18EEBFB56 /* [CP] Embed Pods Frameworks */,
+				61A87C00B88A80CACD4AF85A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866335D01F87A3C300799EC7 /* Build configuration list for PBXNativeTarget "YJColorsRulerTests" */;
 			buildPhases = (
+				DC8D95EF36DCFBCA0ADA2B18 /* [CP] Check Pods Manifest.lock */,
 				866335B51F87A3C300799EC7 /* Sources */,
 				866335B61F87A3C300799EC7 /* Frameworks */,
 				866335B71F87A3C300799EC7 /* Resources */,
+				F0D844283235966A54E09E25 /* [CP] Embed Pods Frameworks */,
+				2D2CD0EF4C3804C3DFB21CBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866335D31F87A3C300799EC7 /* Build configuration list for PBXNativeTarget "YJColorsRulerUITests" */;
 			buildPhases = (
+				7A9BE405DFAAB6B2D6444FA4 /* [CP] Check Pods Manifest.lock */,
 				866335C01F87A3C300799EC7 /* Sources */,
 				866335C11F87A3C300799EC7 /* Frameworks */,
 				866335C21F87A3C300799EC7 /* Resources */,
+				89D4B7A8334C98B44B8CB420 /* [CP] Embed Pods Frameworks */,
+				603ED85014A67D9BBAC8CEBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				866335B11F87A3C200799EC7 /* LaunchScreen.storyboard in Resources */,
+				866335E51F87AE9200799EC7 /* museosans_500-webfont-webfont.ttf in Resources */,
 				866335AE1F87A3C200799EC7 /* Assets.xcassets in Resources */,
 				866335AC1F87A3C200799EC7 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +349,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D2CD0EF4C3804C3DFB21CBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRulerTests/Pods-YJColorsRulerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603ED85014A67D9BBAC8CEBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRulerUITests/Pods-YJColorsRulerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60D8C8741A971AC18EEBFB56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRuler/Pods-YJColorsRuler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A87C00B88A80CACD4AF85A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRuler/Pods-YJColorsRuler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9BE405DFAAB6B2D6444FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJColorsRulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D4B7A8334C98B44B8CB420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRulerUITests/Pods-YJColorsRulerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B25242562852EEF2833BBBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJColorsRuler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8D95EF36DCFBCA0ADA2B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJColorsRulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D844283235966A54E09E25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJColorsRulerTests/Pods-YJColorsRulerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8663359D1F87A3C200799EC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866335DC1F87A43800799EC7 /* YJRulerScrollView.m in Sources */,
 				866335A91F87A3C200799EC7 /* ViewController.m in Sources */,
+				866335DB1F87A43800799EC7 /* YJRuler.m in Sources */,
+				866335E01F87A6DB00799EC7 /* NSString+AddSeperator.m in Sources */,
 				866335B41F87A3C200799EC7 /* main.m in Sources */,
 				866335A61F87A3C200799EC7 /* AppDelegate.m in Sources */,
+				866335E31F87AAB100799EC7 /* YJRulerConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +668,7 @@
 		};
 		866335CE1F87A3C300799EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E0F972FAAC67BECFF3D46 /* Pods-YJColorsRuler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +682,7 @@
 		};
 		866335CF1F87A3C300799EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BF6C74876E44EAA3D4432A /* Pods-YJColorsRuler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +696,7 @@
 		};
 		866335D11F87A3C300799EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AD777A5C78D9F132BF4AF3 /* Pods-YJColorsRulerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +711,7 @@
 		};
 		866335D21F87A3C300799EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB4CF98B8C4BC1978C25C66 /* Pods-YJColorsRulerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +726,7 @@
 		};
 		866335D41F87A3C300799EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDFC5F165D464A0A3A6C6A2 /* Pods-YJColorsRulerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YJColorsRulerUITests/Info.plist;
@@ -495,6 +740,7 @@
 		};
 		866335D51F87A3C300799EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025B2172D563127C8B40478 /* Pods-YJColorsRulerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YJColorsRulerUITests/Info.plist;

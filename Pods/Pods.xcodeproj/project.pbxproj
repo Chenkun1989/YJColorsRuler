@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C00A71D65582967425BF04D8CD12F /* UILabel+BearSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B07FEA110BE70B31373129A3C1CDB11B /* UILabel+BearSet.m */; };
+		0C74E26DF807F64802AF578C6B5526D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		104158E89769DCB9188B527C13901D28 /* BearAlertContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 472C4818F0FD10803AF90BAA75A81F62 /* BearAlertContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11B5B0CB423B4E34E2D4F46B22F929A7 /* ApplicationOpenURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB2DB316C2185F37AEBF8863A38DBC /* ApplicationOpenURLManager.m */; };
+		134BB05E3640CB9080E445412DC245C1 /* UIView+BearSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFFFEF462A0DF14BB16EA0CB36565D7 /* UIView+BearSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB82BC4E95337BB5A87F42D5ECFF809 /* BearAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1752997E6B6C5F611F24FBC9213C086C /* BearAlertContentView.m */; };
+		2263F0110B58F36F06323CDEE5E613B3 /* UITextField+BearLimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F72FB394658EDA3555DF0327B8F0745 /* UITextField+BearLimitLength.m */; };
+		2A16A49CB9960B06002184A517D92144 /* UILabel+BearSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 99029E5D8F02FD9527F26F897F90EC14 /* UILabel+BearSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453417035B3AB5AEF34901F544213834 /* UITableView+BearStoreCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E98C6CB4EF98973935EF0D314488E04 /* UITableView+BearStoreCellHeight.m */; };
+		47938B7881EDC6CD08B36A625D110544 /* Pods-YJColorsRulerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B454B89E70098822D68A8C0DC2C667 /* Pods-YJColorsRulerTests-dummy.m */; };
+		563792FB3DD8231031E4BE531F90D4F5 /* BearConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7240F7E5F274CA2023377128CD4AC62D /* BearConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D676441A04E1623805649027DB8400 /* UITableView+BearStoreCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE6A48EE574182E82C2E563E6D41838 /* UITableView+BearStoreCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C10719DAF382D38423178F44E0EF48C /* NSMutableAttributedString+BearSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 63973857CEFABAD31168A7FEC1985C94 /* NSMutableAttributedString+BearSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A26BC1B48271BBCE19E81CE3766343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		72EEAB76711C50948C2FAF6BAEFC1829 /* UIView+BearSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B548F4D199B2A7A5C99596A012BAFC /* UIView+BearSet.m */; };
+		78A34DEAFCE4C5B40185543B3D97EE89 /* BearAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C51BC11C24646F58EEF513A8EDB006F /* BearAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3AECFBF64F432244CB805777C84D4A /* BearCutOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 299F318DBCC950191A79A10934AF1138 /* BearCutOutView.m */; };
+		90190F67A5C8C65B2D1C0222CB4CCCC3 /* BearBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10E4F26F4B205F2C1A1981D2F5B96A /* BearBezierPath.m */; };
+		9325888B4452E836DE13767BD6FC8E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A29499AE22C0A3975FCA535821238BB9 /* BearDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 984EF18EBC9FE1AFC03F62601201148F /* BearDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B15AA23C22261EB0057562D379E845 /* ApplicationOpenURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D759C340A454B80FA438D9C69F4B65 /* ApplicationOpenURLManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AB834E46E7EE1A156C82D0FB5D991D /* Pods-YJColorsRuler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE91C254A3D94E9DE1D47D4B829E93 /* Pods-YJColorsRuler-dummy.m */; };
+		B915DE695A3F0CCAD26544438DE382B3 /* BearAlertBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 176A75C73898B8BB7EBC9E7E218D0BAF /* BearAlertBtnsView.m */; };
+		B9E1B844C299497713DEF3FE9D980892 /* BearConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E1E4093D73BB7E6F5DB1D3968526C /* BearConstants.m */; };
+		BC18FBCC4E2E0017CB97ECB26CA77236 /* BearBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5605E8D8D1E0B164F885D1CA94ACD5 /* BearBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD25E63CB152781018550A0284B43678 /* BearSkill-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1EC4E88491D090CB7D87B93DF9028D /* BearSkill-dummy.m */; };
+		BFAC5A77D386DC467FDE716269E6F735 /* BearCutOutView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC34E69E269614951FFFD6AC37577162 /* BearCutOutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA19AFD5360AD487FFF89A57F3ADE353 /* BearAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A7A556953468F168543B81E0F997FB /* BearAlertView.m */; };
+		DFEA8695C636F2360D13209A3E391E33 /* UITextField+BearLimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 784B724A716F30861691C2E171D7E3D7 /* UITextField+BearLimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80569186FCF68DBFB3F68C038DC17C3 /* Pods-YJColorsRulerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB2A772B2C641F283D2DD96B4A4AAF8 /* Pods-YJColorsRulerUITests-dummy.m */; };
+		E98EBCF2248DFEA22585CF2702CF087D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EE58DB23DC3ABC2957B99AEA74C6ED9A /* BearAlertBtnsView.h in Headers */ = {isa = PBXBuildFile; fileRef = C85E8EB4CBE17FBC5F036F10CC735F16 /* BearAlertBtnsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03DB0FEA5D8AFEB561F683F6317BB35 /* NSMutableAttributedString+BearSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB9E826DF32F4EA29610489742AC90 /* NSMutableAttributedString+BearSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B35A72FBA47E6B9D063D25DE91E3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E2DE86A4B3D5EFA27C2634656D2D34;
+			remoteInfo = BearSkill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EF0449CFCDB2E2049C7F63CCAC30CB5 /* Pods-YJColorsRuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRuler.release.xcconfig"; sourceTree = "<group>"; };
+		1752997E6B6C5F611F24FBC9213C086C /* BearAlertContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearAlertContentView.m; path = Pod/UIAndExtend/BearAlertView/BearAlertContentView.m; sourceTree = "<group>"; };
+		176A75C73898B8BB7EBC9E7E218D0BAF /* BearAlertBtnsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearAlertBtnsView.m; path = Pod/UIAndExtend/BearAlertView/BearAlertBtnsView.m; sourceTree = "<group>"; };
+		2948A945659E8B809B301D8917C20D3E /* libPods-YJColorsRulerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJColorsRulerTests.a"; path = "libPods-YJColorsRulerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299F318DBCC950191A79A10934AF1138 /* BearCutOutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearCutOutView.m; path = Pod/UIAndExtend/BearCutOutView.m; sourceTree = "<group>"; };
+		29B454B89E70098822D68A8C0DC2C667 /* Pods-YJColorsRulerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJColorsRulerTests-dummy.m"; sourceTree = "<group>"; };
+		2CB2A772B2C641F283D2DD96B4A4AAF8 /* Pods-YJColorsRulerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJColorsRulerUITests-dummy.m"; sourceTree = "<group>"; };
+		2D9980CF95FFE0F3866E09F1455EA00C /* Pods-YJColorsRulerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJColorsRulerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DCDADD201BA7A59D6F08A19213E8374 /* libBearSkill.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBearSkill.a; path = libBearSkill.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C794528A8326CB2F9461C91F1B7598 /* Pods-YJColorsRulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9F1F9746980A67BFD83EE2D2864CBF /* Pods-YJColorsRulerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRulerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		42DD5F70C93096A3BB75E7F4B3873FBE /* Pods-YJColorsRulerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRulerUITests-resources.sh"; sourceTree = "<group>"; };
+		472C4818F0FD10803AF90BAA75A81F62 /* BearAlertContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearAlertContentView.h; path = Pod/UIAndExtend/BearAlertView/BearAlertContentView.h; sourceTree = "<group>"; };
+		4A06740344BBCE229D624DEFA492E48B /* Pods-YJColorsRuler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJColorsRuler-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D4E1E4093D73BB7E6F5DB1D3968526C /* BearConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearConstants.m; path = Pod/Constants/BearConstants.m; sourceTree = "<group>"; };
+		530DBBDA4ACD3DB16833A2C92FF3FAF6 /* libPods-YJColorsRuler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJColorsRuler.a"; path = "libPods-YJColorsRuler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E91599F3BF6260E2F9FAD9A6C5B85A /* Pods-YJColorsRuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRuler.debug.xcconfig"; sourceTree = "<group>"; };
+		58EB0CB2577F21478D764E23948E64E6 /* Pods-YJColorsRulerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJColorsRulerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B5605E8D8D1E0B164F885D1CA94ACD5 /* BearBezierPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearBezierPath.h; path = Pod/UIAndExtend/BearBezierPath.h; sourceTree = "<group>"; };
+		5BDB9E826DF32F4EA29610489742AC90 /* NSMutableAttributedString+BearSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+BearSet.m"; path = "Pod/AttributeString/NSMutableAttributedString+BearSet.m"; sourceTree = "<group>"; };
+		5E98C6CB4EF98973935EF0D314488E04 /* UITableView+BearStoreCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+BearStoreCellHeight.m"; path = "Pod/Layout/UITableView+BearStoreCellHeight.m"; sourceTree = "<group>"; };
+		5EB09FD3EB8D655718889CDB3FE2B1FA /* BearSkill.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BearSkill.xcconfig; sourceTree = "<group>"; };
+		5F72FB394658EDA3555DF0327B8F0745 /* UITextField+BearLimitLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BearLimitLength.m"; path = "Pod/UIAndExtend/UITextField+BearLimitLength.m"; sourceTree = "<group>"; };
+		63973857CEFABAD31168A7FEC1985C94 /* NSMutableAttributedString+BearSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+BearSet.h"; path = "Pod/AttributeString/NSMutableAttributedString+BearSet.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70A7A556953468F168543B81E0F997FB /* BearAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearAlertView.m; path = Pod/UIAndExtend/BearAlertView/BearAlertView.m; sourceTree = "<group>"; };
+		7240F7E5F274CA2023377128CD4AC62D /* BearConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearConstants.h; path = Pod/Constants/BearConstants.h; sourceTree = "<group>"; };
+		784B724A716F30861691C2E171D7E3D7 /* UITextField+BearLimitLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BearLimitLength.h"; path = "Pod/UIAndExtend/UITextField+BearLimitLength.h"; sourceTree = "<group>"; };
+		7A1EC4E88491D090CB7D87B93DF9028D /* BearSkill-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BearSkill-dummy.m"; sourceTree = "<group>"; };
+		7AFFFEF462A0DF14BB16EA0CB36565D7 /* UIView+BearSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BearSet.h"; path = "Pod/Layout/UIView+BearSet.h"; sourceTree = "<group>"; };
+		8C51BC11C24646F58EEF513A8EDB006F /* BearAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearAlertView.h; path = Pod/UIAndExtend/BearAlertView/BearAlertView.h; sourceTree = "<group>"; };
+		8C897A6B77D68F95CF39C1FFA7E085FE /* libPods-YJColorsRulerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJColorsRulerUITests.a"; path = "libPods-YJColorsRulerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B548F4D199B2A7A5C99596A012BAFC /* UIView+BearSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BearSet.m"; path = "Pod/Layout/UIView+BearSet.m"; sourceTree = "<group>"; };
+		984EF18EBC9FE1AFC03F62601201148F /* BearDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearDefines.h; path = Pod/BearDefines/BearDefines.h; sourceTree = "<group>"; };
+		99029E5D8F02FD9527F26F897F90EC14 /* UILabel+BearSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+BearSet.h"; path = "Pod/UIAndExtend/UILabel+BearSet.h"; sourceTree = "<group>"; };
+		A60397985FF98540FB70A67CFAD02B04 /* Pods-YJColorsRuler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJColorsRuler-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7D4F6D3E1C89CA09B6F9A5258AA98D8 /* Pods-YJColorsRulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF657F3DB4F1970B505511E7D4D63E09 /* Pods-YJColorsRulerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRulerTests-resources.sh"; sourceTree = "<group>"; };
+		B07FEA110BE70B31373129A3C1CDB11B /* UILabel+BearSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+BearSet.m"; path = "Pod/UIAndExtend/UILabel+BearSet.m"; sourceTree = "<group>"; };
+		B277DC57F188AFD6F510BC0FEA18266E /* Pods-YJColorsRulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EB2DB316C2185F37AEBF8863A38DBC /* ApplicationOpenURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ApplicationOpenURLManager.m; path = Pod/Constants/ApplicationOpenURLManager.m; sourceTree = "<group>"; };
+		B3F49ABF5D097C7FD1118FA3B90C8948 /* BearSkill-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BearSkill-prefix.pch"; sourceTree = "<group>"; };
+		B4AE91C254A3D94E9DE1D47D4B829E93 /* Pods-YJColorsRuler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJColorsRuler-dummy.m"; sourceTree = "<group>"; };
+		C202F048752565ECEB01D34FBF514B01 /* Pods-YJColorsRulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJColorsRulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4D759C340A454B80FA438D9C69F4B65 /* ApplicationOpenURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApplicationOpenURLManager.h; path = Pod/Constants/ApplicationOpenURLManager.h; sourceTree = "<group>"; };
+		C85E8EB4CBE17FBC5F036F10CC735F16 /* BearAlertBtnsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearAlertBtnsView.h; path = Pod/UIAndExtend/BearAlertView/BearAlertBtnsView.h; sourceTree = "<group>"; };
+		C96E82ED8822031473350CD4A4334E01 /* Pods-YJColorsRulerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRulerTests-frameworks.sh"; sourceTree = "<group>"; };
+		CD5278753B63CF4ABFD90ACD7E525F22 /* Pods-YJColorsRulerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJColorsRulerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE917AD12C519A24547454143490A867 /* Pods-YJColorsRuler-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRuler-resources.sh"; sourceTree = "<group>"; };
+		DFE6A48EE574182E82C2E563E6D41838 /* UITableView+BearStoreCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+BearStoreCellHeight.h"; path = "Pod/Layout/UITableView+BearStoreCellHeight.h"; sourceTree = "<group>"; };
+		E4F4B038D88FDF027CC829857FD726DB /* Pods-YJColorsRuler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJColorsRuler-frameworks.sh"; sourceTree = "<group>"; };
+		E977AF1E911CB183B0A7F514C91C0263 /* Pods-YJColorsRulerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJColorsRulerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC34E69E269614951FFFD6AC37577162 /* BearCutOutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BearCutOutView.h; path = Pod/UIAndExtend/BearCutOutView.h; sourceTree = "<group>"; };
+		FC10E4F26F4B205F2C1A1981D2F5B96A /* BearBezierPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BearBezierPath.m; path = Pod/UIAndExtend/BearBezierPath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA699027686003E7D00A8ABA1DA0384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C74E26DF807F64802AF578C6B5526D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493AE6CE26C75C0EE788B4CF8EF0DA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98EBCF2248DFEA22585CF2702CF087D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37CC273BDF5540C89A6B4E1FECF55BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A26BC1B48271BBCE19E81CE3766343 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE1D2465CBC8943D10EEADFC3322209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9325888B4452E836DE13767BD6FC8E73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F785668F57FB10759FAFE24D5219D0 /* Pods-YJColorsRulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				58EB0CB2577F21478D764E23948E64E6 /* Pods-YJColorsRulerTests-acknowledgements.markdown */,
+				CD5278753B63CF4ABFD90ACD7E525F22 /* Pods-YJColorsRulerTests-acknowledgements.plist */,
+				29B454B89E70098822D68A8C0DC2C667 /* Pods-YJColorsRulerTests-dummy.m */,
+				C96E82ED8822031473350CD4A4334E01 /* Pods-YJColorsRulerTests-frameworks.sh */,
+				AF657F3DB4F1970B505511E7D4D63E09 /* Pods-YJColorsRulerTests-resources.sh */,
+				B277DC57F188AFD6F510BC0FEA18266E /* Pods-YJColorsRulerTests.debug.xcconfig */,
+				A7D4F6D3E1C89CA09B6F9A5258AA98D8 /* Pods-YJColorsRulerTests.release.xcconfig */,
+			);
+			name = "Pods-YJColorsRulerTests";
+			path = "Target Support Files/Pods-YJColorsRulerTests";
+			sourceTree = "<group>";
+		};
+		182909BF937C355ADF879D78F8BE1C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				559D0540C168DA2BEA6E880E0DC0FE50 /* BearSkill */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		544F28BB52F5DC7D0BB2F7813FDC005E /* Pods-YJColorsRulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D9980CF95FFE0F3866E09F1455EA00C /* Pods-YJColorsRulerUITests-acknowledgements.markdown */,
+				E977AF1E911CB183B0A7F514C91C0263 /* Pods-YJColorsRulerUITests-acknowledgements.plist */,
+				2CB2A772B2C641F283D2DD96B4A4AAF8 /* Pods-YJColorsRulerUITests-dummy.m */,
+				3C9F1F9746980A67BFD83EE2D2864CBF /* Pods-YJColorsRulerUITests-frameworks.sh */,
+				42DD5F70C93096A3BB75E7F4B3873FBE /* Pods-YJColorsRulerUITests-resources.sh */,
+				35C794528A8326CB2F9461C91F1B7598 /* Pods-YJColorsRulerUITests.debug.xcconfig */,
+				C202F048752565ECEB01D34FBF514B01 /* Pods-YJColorsRulerUITests.release.xcconfig */,
+			);
+			name = "Pods-YJColorsRulerUITests";
+			path = "Target Support Files/Pods-YJColorsRulerUITests";
+			sourceTree = "<group>";
+		};
+		559D0540C168DA2BEA6E880E0DC0FE50 /* BearSkill */ = {
+			isa = PBXGroup;
+			children = (
+				615842978BB17C511E0F43D58C82B906 /* AttributeString */,
+				7BE1E6F453CBC16716F35A9B470B2AC4 /* BearDefines */,
+				B0DF5C0D3917FC280774AC1D7BE6AB4C /* Constants */,
+				965F048F676BE4A786E936CD5C84E1F6 /* Layout */,
+				D637EF82F2237E6227A85D08CF1F7C34 /* Support Files */,
+				B7104180EBB7566BA16CD3FC2B93D861 /* UIAndExtend */,
+			);
+			name = BearSkill;
+			path = BearSkill;
+			sourceTree = "<group>";
+		};
+		615842978BB17C511E0F43D58C82B906 /* AttributeString */ = {
+			isa = PBXGroup;
+			children = (
+				63973857CEFABAD31168A7FEC1985C94 /* NSMutableAttributedString+BearSet.h */,
+				5BDB9E826DF32F4EA29610489742AC90 /* NSMutableAttributedString+BearSet.m */,
+			);
+			name = AttributeString;
+			sourceTree = "<group>";
+		};
+		7BE1E6F453CBC16716F35A9B470B2AC4 /* BearDefines */ = {
+			isa = PBXGroup;
+			children = (
+				984EF18EBC9FE1AFC03F62601201148F /* BearDefines.h */,
+			);
+			name = BearDefines;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				182909BF937C355ADF879D78F8BE1C3A /* Pods */,
+				9842FF471AE36D76E058A2BA4F2756EA /* Products */,
+				BF808838779B007764FE2B3CBC86C591 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		965F048F676BE4A786E936CD5C84E1F6 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DFE6A48EE574182E82C2E563E6D41838 /* UITableView+BearStoreCellHeight.h */,
+				5E98C6CB4EF98973935EF0D314488E04 /* UITableView+BearStoreCellHeight.m */,
+				7AFFFEF462A0DF14BB16EA0CB36565D7 /* UIView+BearSet.h */,
+				94B548F4D199B2A7A5C99596A012BAFC /* UIView+BearSet.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		9842FF471AE36D76E058A2BA4F2756EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DCDADD201BA7A59D6F08A19213E8374 /* libBearSkill.a */,
+				530DBBDA4ACD3DB16833A2C92FF3FAF6 /* libPods-YJColorsRuler.a */,
+				2948A945659E8B809B301D8917C20D3E /* libPods-YJColorsRulerTests.a */,
+				8C897A6B77D68F95CF39C1FFA7E085FE /* libPods-YJColorsRulerUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DF5C0D3917FC280774AC1D7BE6AB4C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C4D759C340A454B80FA438D9C69F4B65 /* ApplicationOpenURLManager.h */,
+				B3EB2DB316C2185F37AEBF8863A38DBC /* ApplicationOpenURLManager.m */,
+				7240F7E5F274CA2023377128CD4AC62D /* BearConstants.h */,
+				4D4E1E4093D73BB7E6F5DB1D3968526C /* BearConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		B7104180EBB7566BA16CD3FC2B93D861 /* UIAndExtend */ = {
+			isa = PBXGroup;
+			children = (
+				C85E8EB4CBE17FBC5F036F10CC735F16 /* BearAlertBtnsView.h */,
+				176A75C73898B8BB7EBC9E7E218D0BAF /* BearAlertBtnsView.m */,
+				472C4818F0FD10803AF90BAA75A81F62 /* BearAlertContentView.h */,
+				1752997E6B6C5F611F24FBC9213C086C /* BearAlertContentView.m */,
+				8C51BC11C24646F58EEF513A8EDB006F /* BearAlertView.h */,
+				70A7A556953468F168543B81E0F997FB /* BearAlertView.m */,
+				5B5605E8D8D1E0B164F885D1CA94ACD5 /* BearBezierPath.h */,
+				FC10E4F26F4B205F2C1A1981D2F5B96A /* BearBezierPath.m */,
+				EC34E69E269614951FFFD6AC37577162 /* BearCutOutView.h */,
+				299F318DBCC950191A79A10934AF1138 /* BearCutOutView.m */,
+				99029E5D8F02FD9527F26F897F90EC14 /* UILabel+BearSet.h */,
+				B07FEA110BE70B31373129A3C1CDB11B /* UILabel+BearSet.m */,
+				784B724A716F30861691C2E171D7E3D7 /* UITextField+BearLimitLength.h */,
+				5F72FB394658EDA3555DF0327B8F0745 /* UITextField+BearLimitLength.m */,
+			);
+			name = UIAndExtend;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF808838779B007764FE2B3CBC86C591 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED1ADAAB828E227DA8A0B59A4D036E44 /* Pods-YJColorsRuler */,
+				13F785668F57FB10759FAFE24D5219D0 /* Pods-YJColorsRulerTests */,
+				544F28BB52F5DC7D0BB2F7813FDC005E /* Pods-YJColorsRulerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D637EF82F2237E6227A85D08CF1F7C34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB09FD3EB8D655718889CDB3FE2B1FA /* BearSkill.xcconfig */,
+				7A1EC4E88491D090CB7D87B93DF9028D /* BearSkill-dummy.m */,
+				B3F49ABF5D097C7FD1118FA3B90C8948 /* BearSkill-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BearSkill";
+			sourceTree = "<group>";
+		};
+		ED1ADAAB828E227DA8A0B59A4D036E44 /* Pods-YJColorsRuler */ = {
+			isa = PBXGroup;
+			children = (
+				A60397985FF98540FB70A67CFAD02B04 /* Pods-YJColorsRuler-acknowledgements.markdown */,
+				4A06740344BBCE229D624DEFA492E48B /* Pods-YJColorsRuler-acknowledgements.plist */,
+				B4AE91C254A3D94E9DE1D47D4B829E93 /* Pods-YJColorsRuler-dummy.m */,
+				E4F4B038D88FDF027CC829857FD726DB /* Pods-YJColorsRuler-frameworks.sh */,
+				CE917AD12C519A24547454143490A867 /* Pods-YJColorsRuler-resources.sh */,
+				58E91599F3BF6260E2F9FAD9A6C5B85A /* Pods-YJColorsRuler.debug.xcconfig */,
+				0EF0449CFCDB2E2049C7F63CCAC30CB5 /* Pods-YJColorsRuler.release.xcconfig */,
+			);
+			name = "Pods-YJColorsRuler";
+			path = "Target Support Files/Pods-YJColorsRuler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D4F8501362EA08383C6EC8F1B258B88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B15AA23C22261EB0057562D379E845 /* ApplicationOpenURLManager.h in Headers */,
+				EE58DB23DC3ABC2957B99AEA74C6ED9A /* BearAlertBtnsView.h in Headers */,
+				104158E89769DCB9188B527C13901D28 /* BearAlertContentView.h in Headers */,
+				78A34DEAFCE4C5B40185543B3D97EE89 /* BearAlertView.h in Headers */,
+				BC18FBCC4E2E0017CB97ECB26CA77236 /* BearBezierPath.h in Headers */,
+				563792FB3DD8231031E4BE531F90D4F5 /* BearConstants.h in Headers */,
+				BFAC5A77D386DC467FDE716269E6F735 /* BearCutOutView.h in Headers */,
+				A29499AE22C0A3975FCA535821238BB9 /* BearDefines.h in Headers */,
+				5C10719DAF382D38423178F44E0EF48C /* NSMutableAttributedString+BearSet.h in Headers */,
+				2A16A49CB9960B06002184A517D92144 /* UILabel+BearSet.h in Headers */,
+				57D676441A04E1623805649027DB8400 /* UITableView+BearStoreCellHeight.h in Headers */,
+				DFEA8695C636F2360D13209A3E391E33 /* UITextField+BearLimitLength.h in Headers */,
+				134BB05E3640CB9080E445412DC245C1 /* UIView+BearSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10DFEDAC709756404D1E5600946BC764 /* Pods-YJColorsRulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF1F4ABB3C1641CB26B025F0EF24FE0 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRulerUITests" */;
+			buildPhases = (
+				7D9260C2452C1ECC28DDB228F1911242 /* Sources */,
+				3FA699027686003E7D00A8ABA1DA0384 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YJColorsRulerUITests";
+			productName = "Pods-YJColorsRulerUITests";
+			productReference = 8C897A6B77D68F95CF39C1FFA7E085FE /* libPods-YJColorsRulerUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2005381BA8696C83A4AD9D7E00A70346 /* Pods-YJColorsRulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3B843C0887D0E9434EA719705A4675 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRulerTests" */;
+			buildPhases = (
+				8527FDEA4C26E654D4563107DEBF5174 /* Sources */,
+				493AE6CE26C75C0EE788B4CF8EF0DA68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YJColorsRulerTests";
+			productName = "Pods-YJColorsRulerTests";
+			productReference = 2948A945659E8B809B301D8917C20D3E /* libPods-YJColorsRulerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		20E2DE86A4B3D5EFA27C2634656D2D34 /* BearSkill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CEFA9B9D31E0D66624E82264A10EFE /* Build configuration list for PBXNativeTarget "BearSkill" */;
+			buildPhases = (
+				5AC5A65B5D2276C3DD1F5AD2712853B5 /* Sources */,
+				B37CC273BDF5540C89A6B4E1FECF55BB /* Frameworks */,
+				2D4F8501362EA08383C6EC8F1B258B88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BearSkill;
+			productName = BearSkill;
+			productReference = 2DCDADD201BA7A59D6F08A19213E8374 /* libBearSkill.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA7E58FEFC313C2CD197DA1267FCB257 /* Pods-YJColorsRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9748C1ECA66482C88EEB035A53340CE4 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRuler" */;
+			buildPhases = (
+				196D13C22646F3796B6D16EAC18107BF /* Sources */,
+				BCE1D2465CBC8943D10EEADFC3322209 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCFD5BE94E3BB273AAF103A60D50A6C /* PBXTargetDependency */,
+			);
+			name = "Pods-YJColorsRuler";
+			productName = "Pods-YJColorsRuler";
+			productReference = 530DBBDA4ACD3DB16833A2C92FF3FAF6 /* libPods-YJColorsRuler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9842FF471AE36D76E058A2BA4F2756EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E2DE86A4B3D5EFA27C2634656D2D34 /* BearSkill */,
+				DA7E58FEFC313C2CD197DA1267FCB257 /* Pods-YJColorsRuler */,
+				2005381BA8696C83A4AD9D7E00A70346 /* Pods-YJColorsRulerTests */,
+				10DFEDAC709756404D1E5600946BC764 /* Pods-YJColorsRulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196D13C22646F3796B6D16EAC18107BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AB834E46E7EE1A156C82D0FB5D991D /* Pods-YJColorsRuler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC5A65B5D2276C3DD1F5AD2712853B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B5B0CB423B4E34E2D4F46B22F929A7 /* ApplicationOpenURLManager.m in Sources */,
+				B915DE695A3F0CCAD26544438DE382B3 /* BearAlertBtnsView.m in Sources */,
+				1CB82BC4E95337BB5A87F42D5ECFF809 /* BearAlertContentView.m in Sources */,
+				CA19AFD5360AD487FFF89A57F3ADE353 /* BearAlertView.m in Sources */,
+				90190F67A5C8C65B2D1C0222CB4CCCC3 /* BearBezierPath.m in Sources */,
+				B9E1B844C299497713DEF3FE9D980892 /* BearConstants.m in Sources */,
+				7E3AECFBF64F432244CB805777C84D4A /* BearCutOutView.m in Sources */,
+				BD25E63CB152781018550A0284B43678 /* BearSkill-dummy.m in Sources */,
+				F03DB0FEA5D8AFEB561F683F6317BB35 /* NSMutableAttributedString+BearSet.m in Sources */,
+				017C00A71D65582967425BF04D8CD12F /* UILabel+BearSet.m in Sources */,
+				453417035B3AB5AEF34901F544213834 /* UITableView+BearStoreCellHeight.m in Sources */,
+				2263F0110B58F36F06323CDEE5E613B3 /* UITextField+BearLimitLength.m in Sources */,
+				72EEAB76711C50948C2FAF6BAEFC1829 /* UIView+BearSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9260C2452C1ECC28DDB228F1911242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80569186FCF68DBFB3F68C038DC17C3 /* Pods-YJColorsRulerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527FDEA4C26E654D4563107DEBF5174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47938B7881EDC6CD08B36A625D110544 /* Pods-YJColorsRulerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DCFD5BE94E3BB273AAF103A60D50A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BearSkill;
+			target = 20E2DE86A4B3D5EFA27C2634656D2D34 /* BearSkill */;
+			targetProxy = 08B35A72FBA47E6B9D063D25DE91E3E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00EEE9EABAAE9B345952312437C07567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B277DC57F188AFD6F510BC0FEA18266E /* Pods-YJColorsRulerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1761C956710A3C1797AF65F0B78E5278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB09FD3EB8D655718889CDB3FE2B1FA /* BearSkill.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BearSkill/BearSkill-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4289215E38092FD6CF7107ABBD86F14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C202F048752565ECEB01D34FBF514B01 /* Pods-YJColorsRulerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		540967EAEF2B471EABBF1CFCD31ABAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB09FD3EB8D655718889CDB3FE2B1FA /* BearSkill.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BearSkill/BearSkill-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		B41974FB330696D8CFA70162AE4607DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E91599F3BF6260E2F9FAD9A6C5B85A /* Pods-YJColorsRuler.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4BC95519D5EF122666D80DD0341CB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C794528A8326CB2F9461C91F1B7598 /* Pods-YJColorsRulerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4CFA3EE10E68D6C8559D454B6DBC676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF0449CFCDB2E2049C7F63CCAC30CB5 /* Pods-YJColorsRuler.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F50A5934D28F7A96351408C01CF0E829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D4F6D3E1C89CA09B6F9A5258AA98D8 /* Pods-YJColorsRulerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CEFA9B9D31E0D66624E82264A10EFE /* Build configuration list for PBXNativeTarget "BearSkill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1761C956710A3C1797AF65F0B78E5278 /* Debug */,
+				540967EAEF2B471EABBF1CFCD31ABAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3B843C0887D0E9434EA719705A4675 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EEE9EABAAE9B345952312437C07567 /* Debug */,
+				F50A5934D28F7A96351408C01CF0E829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9748C1ECA66482C88EEB035A53340CE4 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41974FB330696D8CFA70162AE4607DF /* Debug */,
+				F4CFA3EE10E68D6C8559D454B6DBC676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF1F4ABB3C1641CB26B025F0EF24FE0 /* Build configuration list for PBXNativeTarget "Pods-YJColorsRulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BC95519D5EF122666D80DD0341CB99 /* Debug */,
+				4289215E38092FD6CF7107ABBD86F14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
